@@ -3,3 +3,4 @@ __pycache__/
 *.pyo
 passwords.json
 user_roles.json
+.env
