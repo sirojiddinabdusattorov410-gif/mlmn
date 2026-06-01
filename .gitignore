@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+*.pyo
+passwords.json
+user_roles.json
