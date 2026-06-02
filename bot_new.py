@@ -18,9 +18,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
-if not TELEGRAM_TOKEN:
-    raise ValueError("TELEGRAM_TOKEN .env faylida topilmadi!")
+TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "8391861533:AAEPc3FG8ubqW4M-sC-K8aomi5Vh0j6-mJo")
 
 TEACHER_PASSWORDS = {}
 VERIFIED_TEACHERS = set()
